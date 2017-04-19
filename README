@@ -1,23 +1,23 @@
-Some simple test code snippets related to the reapsberry
+# camera-raspberrypi
+
+Some simple test code snippets related to the raspberry
 pi camera. Note: some if not all of the content was stolen 
-from the internet.
+from the internet, various sources.
 
 
-0. install the camer following the instructions provided.
-1. enable the camera:
-    sudo raspi-config
+* install the camer following the instructions provided.
+* enable the camera:
+    - sudo raspi-config
 
-2. test the camera:
-    raspistill -o image.jpg
+* test the camera:
+    - raspistill -o image.jpg
 
-3. Install some python libraries (may already be there):
-    sudo apt-get install python-picamera python3-picamera
+* Install some python libraries (may already be there):
+    - sudo apt-get install python-picamera python3-picamera
 
-4. Some python coding:
-    timedsnap.py  timedvideo.py
+* Some python coding:
+    + timedsnap.py  timedvideo.py
 
-5. In order to view the movies you created:
-    cd Desktop
-    omxplayer video.h264
-
-
+* In order to view the movies you created:
+    - cd Desktop
+    - omxplayer video.h264
